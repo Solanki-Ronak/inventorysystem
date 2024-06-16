@@ -1,0 +1,84 @@
+/* Container for the entire page */
+.page-container {
+    font-family: Arial, sans-serif;
+    background-color: white; /* White background */
+}
+
+/* Top row */
+.top-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #333; /* Dark grey background */
+    color: white; /* White text */
+}
+
+/* Logo */
+.logo {
+    width: 50px;
+    height: 110px;
+    margin-right: 10px;
+}
+
+/* Branch name */
+.branch-name {
+    font-size: 50px;
+}
+
+/* Logout button */
+.logout-button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+/* Left column */
+.left-column {
+    flex: 1;
+    padding: 20px;
+    background-color: white; /* White background */
+}
+
+/* Buttons */
+.button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 10px;
+    background-color: #333; /* Dark grey background */
+    color: black; /* Black text */
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #555; /* Darker grey on hover */
+}
+
+/* Right column */
+.right-column {
+    flex: 1;
+    padding: 20px;
+    background-color: white; /* White background */
+}
+
+/* Content area */
+.content-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+/* Content text */
+.content-text {
+    font-size: 20px;
+    color: black; /* Black text */
+}
